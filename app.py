@@ -3,11 +3,7 @@
 # -----------------------------
 # Database config
 # -----------------------------
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "mysql+pymysql://admin:manubolusivananda@database-1.c32awucyihk7.us-west-1.rds.amazonaws.com:3306/paddy_disease_db"
-)
-engine = create_engine(DATABASE_URL, future=True)
+
 
 # -----------------------------
 # Load ML model
